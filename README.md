@@ -19,7 +19,7 @@ The id of the article on each day. For example, article with id 0 is the headlin
 
 ### title
 
-The title of the article. It is also included at the beginning of the text. Users using column text does not need do extra work to scan this column.
+The title of the article. The title is also included at the beginning of the `text` column. Users using the `text` column does not need to scan this column.
   
 ### text
 
@@ -40,7 +40,7 @@ To build the corpus:
 
 ### ngram.ipynb
 
-List all frequently used pharses in the corpus.
+List all frequently appeared word combos in the corpus.
 
 ### sentences.ipynb
 
